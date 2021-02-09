@@ -44,4 +44,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void galeri(View view){
+        Intent intent=new Intent(MainActivity.this, GaleriActivity.class);
+        startActivity(intent);
+    }
+
 }
