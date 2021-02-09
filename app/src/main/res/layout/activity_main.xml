@@ -10,8 +10,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="155dp"
-        android:background="@drawable/banner">
+        android:layout_height="158dp"
+        android:background="@drawable/gambar">
 
 
 
@@ -22,6 +22,7 @@
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:background="#4B5BB3"
         android:layout_gravity="center_vertical"
         android:layout_weight="9"
         android:alignmentMode="alignMargins"
@@ -35,6 +36,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
+            android:layout_marginTop="3dp"
             android:layout_columnWeight="1"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
@@ -78,6 +80,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
+            android:layout_marginTop="3dp"
             android:layout_columnWeight="1"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
@@ -220,16 +223,17 @@
                     android:layout_height="100dp"
                     android:onClick="ekstrakulikuler"
                     android:layout_gravity="center"
-                    android:src="@drawable/ektrakulikuler" />
+                    android:src="@drawable/organisasi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="EXTRAKULIKULER"
+                    android:text="EKSTRAKULIKULER"
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
+
 
 
             </LinearLayout>

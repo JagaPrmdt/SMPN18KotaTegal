@@ -6,25 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".ProfilActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_height="190dp"
         android:background="@drawable/banner" />
 
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="370dp"
+                android:layout_height="match_parent"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginTop="205dp"
@@ -176,20 +167,14 @@
                     android:textStyle="bold" />
 
                 <Button
-                    android:layout_width="150dp"
-                    android:onClick="galeri"
+                    android:onClick="tampilkan"
+                    android:layout_width="130dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="150dp"
-                    android:background="#0066FF"
-                    android:layout_marginLeft="125dp"
-                    android:layout_marginRight="125dp" />
-
-
-
-
-
-
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="125dp"
+                    android:text="G A L E R I"/>
 
             </androidx.cardview.widget.CardView>
 
