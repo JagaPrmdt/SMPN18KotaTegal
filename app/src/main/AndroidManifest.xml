@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN18KOTATEGAL">
-        <activity android:name=".GaleriActivity"></activity>
+        <activity android:name=".SplashScreen"/>
+        <activity android:name=".GaleriActivity" />
         <activity android:name=".PengumumanActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
         <activity android:name=".FasilitasActivity" />

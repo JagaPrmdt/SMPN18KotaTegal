@@ -7,13 +7,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="158dp"
         android:background="@drawable/gambar">
-
-
 
     </RelativeLayout>
 
@@ -22,7 +19,7 @@
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#4B5BB3"
+
         android:layout_gravity="center_vertical"
         android:layout_weight="9"
         android:alignmentMode="alignMargins"
