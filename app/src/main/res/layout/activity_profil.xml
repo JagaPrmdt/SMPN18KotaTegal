@@ -51,7 +51,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="54dp"
+                    android:layout_marginTop="56dp"
                     android:gravity="center_horizontal"
                     android:text="SELAMAT DATANG"
                     android:textColor="#fff"
@@ -60,7 +60,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="70dp"
+                    android:layout_marginTop="74dp"
                     android:gravity="center_horizontal"
                     android:text="DI PROFIL SMPN 18 KOTA TEGAL"
                     android:textColor="#fff"

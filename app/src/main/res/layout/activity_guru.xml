@@ -23,7 +23,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -74,7 +74,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -133,7 +133,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -192,7 +192,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -251,7 +251,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -310,7 +310,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -369,7 +369,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -428,7 +428,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -487,7 +487,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -546,7 +546,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -605,7 +605,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -664,7 +664,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -723,7 +723,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -782,7 +782,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -841,7 +841,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -900,7 +900,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -959,7 +959,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1018,7 +1018,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1077,7 +1077,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1136,7 +1136,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1195,7 +1195,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1254,7 +1254,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1313,7 +1313,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1372,7 +1372,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1431,7 +1431,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1490,7 +1490,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1549,7 +1549,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1599,7 +1599,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1649,7 +1649,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1699,7 +1699,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1748,7 +1748,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1797,7 +1797,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1847,7 +1847,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1897,7 +1897,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1947,7 +1947,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -1997,7 +1997,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -2047,7 +2047,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -2097,7 +2097,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -2146,7 +2146,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -2196,7 +2196,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -2246,7 +2246,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
@@ -2295,7 +2295,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
+                android:layout_width="135dp"
                 android:layout_height="125dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
