@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class PengumumanActivity extends AppCompatActivity {
+public class Album5Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pengumuman);
+        setContentView(R.layout.activity_album5);
     }
 }

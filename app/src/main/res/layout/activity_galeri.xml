@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GaleriActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="9"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#00BCD4"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FFF"
+                    android:text="GALERI SMPN 18 TEGAL "
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:onClick="album1"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/guru" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:text="KEGIATAN 5 S" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:onClick="album2"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/guru" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:text="UPACARA BENDERA" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:onClick="album3"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/guru" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:text="PERJUMSAMI" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:onClick="album4"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/guru" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:text="JUMBARA PMR" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="125dp"
+                android:onClick="album5"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/guru" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:text="PERAYAAN HUT RI" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+    </ScrollView>
+
+</RelativeLayout>

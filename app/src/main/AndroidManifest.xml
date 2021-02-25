@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.smpn18kotategal">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -9,9 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN18KOTATEGAL">
-
+        <activity android:name=".Album5Activity"></activity>
+        <activity android:name=".Album4Activity" />
+        <activity android:name=".Album3Activity" />
+        <activity android:name=".Album2Activity" />
+        <activity android:name=".album1Activity" />
         <activity android:name=".GaleriActivity" />
-        <activity android:name=".PengumumanActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
         <activity android:name=".FasilitasActivity" />
         <activity android:name=".PrestasiActivity" />
@@ -24,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

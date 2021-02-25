@@ -42,6 +42,10 @@ dependencies {
     implementation 'com.cpacm.simpleslider:library:2.3.0'
 //    penutup banner slider
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+//Dimen
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'

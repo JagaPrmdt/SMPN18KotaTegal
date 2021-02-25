@@ -43,14 +43,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void pengumuman(View view){
-        Intent intent=new Intent(MainActivity.this, PengumumanActivity.class);
-        startActivity(intent);
-    }
-
     public void galeri(View view){
         Intent intent=new Intent(MainActivity.this, GaleriActivity.class);
         startActivity(intent);
     }
+
 
 }

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Album3Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="9"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="310dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/pramuka1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="Perkemahan Cacaban"
+                    android:textColor="#3F51B5"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="310dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/pramuka2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="Perkemahan Cacaban"
+                    android:textColor="#3F51B5"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="310dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/pramuka3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="Perkemahan Cacaban"
+                    android:textColor="#3F51B5"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="310dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/pramuka5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="Perkemahan Cacaban"
+                    android:textColor="#3F51B5"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+    </ScrollView>
+</RelativeLayout>

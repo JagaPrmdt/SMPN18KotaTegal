@@ -19,7 +19,6 @@
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-
         android:layout_gravity="center_vertical"
         android:layout_weight="9"
         android:alignmentMode="alignMargins"
@@ -219,7 +218,7 @@
                     android:layout_height="100dp"
                     android:layout_gravity="center"
                     android:onClick="ekstrakulikuler"
-                    android:src="@drawable/organisasi" />
+                    android:src="@drawable/ekstrakulikuler" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -258,15 +257,15 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:onClick="galeri"
                     android:layout_gravity="center"
-                    android:onClick="pengumuman"
-                    android:src="@drawable/pengumuman" />
+                    android:src="@drawable/galeri" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="PENGUMUMAN"
+                    android:text="GALERI"
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
