@@ -7,13 +7,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="158dp"
-        android:background="@drawable/gambar">
+        android:layout_height="165dp"
+        android:background="@drawable/poster2">
 
     </RelativeLayout>
-
 
     <GridLayout
         android:id="@+id/mainGrid"
@@ -257,8 +257,8 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:onClick="galeri"
                     android:layout_gravity="center"
+                    android:onClick="galeri"
                     android:src="@drawable/galeri" />
 
                 <TextView
