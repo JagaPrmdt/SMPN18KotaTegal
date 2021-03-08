@@ -10,10 +10,37 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="165dp"
-        android:background="@drawable/poster2">
+        android:layout_height="200dp">
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/poster2"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/poster" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/poster2"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/poster"
+                android:scaleType="fitXY"/>
+
+        </ViewFlipper>
     </RelativeLayout>
+
 
     <GridLayout
         android:id="@+id/mainGrid"

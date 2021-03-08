@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OsisActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/osis"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/poster" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/poster2"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/poster"
+                android:scaleType="fitXY"/>
+
+        </ViewFlipper>
+    </RelativeLayout>
+
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="9"
+        android:alignmentMode="alignMargins"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:rowCount="4">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:text="ORGANISASI OSIS"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginRight="12dp"
+                android:text="SMP NEGERI 18 KOTA TEGAL"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="12dp"
+                android:text="Organisasi ini terdiri dari susunan kepanitian yang terdiri dari ketua, wakil ketua, sekretaris, bendahara, kemudian seksi-seksi lainnya. Setiap jabatan di dalam OSIS memiliki tugas masing-masing. Kepengurusan OSIS memiliki masa kerja yang terbatas yaitu selama satu tahun dan akan diperbaharui lagi."
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginRight="12dp"
+                android:text="Fungsi OSIS
+
+Mengapa harus ada OSIS di sekolah? OSIS merupakan sebuah wadah yang memfasilitasi para siswa untuk bekerja sesuai tugasnya masing-masing demi kepentingan sekolah dan seluruh siswa. Selain itu, OSIS juga berfungsi sebagai pendorong berkembangnya kemampuan dan kreativitas siswa."
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginRight="12dp"
+                android:text="Tujuan OSIS
+
+, OSIS merupakan organisasi intra sekolah yang artinya organisasi ini dibentuk di dalam sekolah, beranggotakan siswa di sekolah, dibina oleh guru di sekolah, dan bekerja demi kebaikan sekolah.
+
+OSIS bertujuan memfasilitasi para siswa untuk menyalurkan aspirasinya, mengekspresikan kreativitasnya, dan berkontribusi untuk hal-hal yang positif. OSIS memiliki tujuan yang positif bagi seluruh siswa di sekolah yang artinya akan memberikan pengaruh positif juga bagi sekolah itu sendiri."
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="365dp"
+                android:layout_marginRight="12dp"
+                android:textColor="#000"
+                android:text="Jadwal Pertemuan :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="380dp"
+                android:layout_marginRight="12dp"
+                android:textColor="#000"
+                android:text="Hari Senin dan Rabu"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="393dp"
+                android:layout_marginRight="12dp"
+                android:textColor="#000"
+                android:text="Pukul 13.15-14.00"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </GridLayout>
+</LinearLayout>

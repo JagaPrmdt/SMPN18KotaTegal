@@ -4,27 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfilActivity">
-
+    tools:context=".Perpustakaan">
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="280dp"
         android:fitsSystemWindows="true"
         android:theme="@style/Theme.Design">
         <com.google.android.material.appbar.CollapsingToolbarLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
-            app:title="SMP NEGERI 18 TEGAL"
+            app:title="ini collap"
             android:id="@+id/collapsing_tool">
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/upacarabanner"
+                android:src="@drawable/pramuka1"
                 android:scaleType="centerCrop"
                 android:layout_gravity="center|end"
                 android:layout_marginBottom="15dp"
@@ -62,106 +61,106 @@
                 android:rowCount="4">
 
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="650dp"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
                     android:layout_marginLeft="12dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="12dp"
                     android:layout_marginRight="12dp"
-                    android:layout_marginBottom="12dp"
-                    app:cardCornerRadius="10dp">
+                    android:src="@drawable/guru" />
 
-                    <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
-                        android:layout_marginLeft="12dp"
-                        android:layout_marginTop="12dp"
-                        android:layout_marginRight="12dp"
-                        android:src="@drawable/guru" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="20dp"
+                    android:text="SAMBUTAN KEPALA SEKOLAH"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
-                        android:layout_marginTop="20dp"
-                        android:text="SAMBUTAN KEPALA SEKOLAH"
-                        android:textColor="#000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="42dp"
+                    android:layout_marginRight="12dp"
+                    android:text="SMP NEGERI 18 KOTA TEGAL"
+                    android:textSize="15sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
-                        android:layout_marginTop="42dp"
-                        android:layout_marginRight="12dp"
-                        android:text="SMP NEGERI 18 KOTA TEGAL"
-                        android:textSize="15sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Assalamualaikum wr. wb."
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="80dp"
-                        android:layout_marginRight="12dp"
-                        android:text="Assalamualaikum wr. wb."
-                        android:textColor="#000"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Syukur alhamdulillah kami panjatkan kepada Alloh Tuhan Yang Maha Esa, disertai ucapan terima kasih kepada Tim IT UPTD SPF SMP Negeri 18 Tegal yang telah mampu mengaktifkan kembali Web Sekolah diiringi perasaan lega karena apa yang diharapkan oleh warga sekolah untuk menyediakan akses dan berbagai informasi guna mengembangkan dan memperlancar semua sistem yang ada di sekolah bisa terfasilitasi terutama dalam mengembangkan kegiatan pembelajaran."
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="110dp"
-                        android:layout_marginRight="12dp"
-                        android:text="Syukur alhamdulillah kami panjatkan kepada Alloh Tuhan Yang Maha Esa, disertai ucapan terima kasih kepada Tim IT UPTD SPF SMP Negeri 18 Tegal yang telah mampu mengaktifkan kembali Web Sekolah diiringi perasaan lega karena apa yang diharapkan oleh warga sekolah untuk menyediakan akses dan berbagai informasi guna mengembangkan dan memperlancar semua sistem yang ada di sekolah bisa terfasilitasi terutama dalam mengembangkan kegiatan pembelajaran."
-                        android:textColor="#000"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Kemajuan Teknologi Informasi dapat dimanfaatkan untuk proses pembelajaran lebih inovatif, untuk penyebarluasan informasi dari semua kegiatan pendidikan yang dilakukan di sekolah, sehingga yang membutuhkan informasi termasuk stake holder dapat terpenuhi. Sebagai media pembelajaran, Website sekolah dapat memuat blog guru di dalamnya dapat dituliskan berbagai artikel pembelajaran atau materi penting , bahkan dapat memberikan tugas mandiri kepada peserta didik . Seperti inilah pembelajaran yang berbasis Teknologi Informasi."
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="240dp"
-                        android:layout_marginRight="12dp"
-                        android:text="Kemajuan Teknologi Informasi dapat dimanfaatkan untuk proses pembelajaran lebih inovatif, untuk penyebarluasan informasi dari semua kegiatan pendidikan yang dilakukan di sekolah, sehingga yang membutuhkan informasi termasuk stake holder dapat terpenuhi. Sebagai media pembelajaran, Website sekolah dapat memuat blog guru di dalamnya dapat dituliskan berbagai artikel pembelajaran atau materi penting , bahkan dapat memberikan tugas mandiri kepada peserta didik . Seperti inilah pembelajaran yang berbasis Teknologi Informasi."
-                        android:textColor="#000"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="385dp"
-                        android:layout_marginRight="12dp"
-                        android:text="Website sebagai sarana promosi sekolah sangat efektif, berbagai kegiatan dan prestasi sekolah dapat diunggah, disertai gambar-gambar yang relevan, masyarakat dapat mengetahui prestasi-prestasi yang telah berhasil diraih oleh UPTD SPF SMP Negeri 18 Tegal.. Website dapat dijadikan media komunikasi dan konsulidasi antara sekolah dengan para alumni. Dengan harapan terbentuk ikatan alumni yang makin besar dan kuat.
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="385dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Website sebagai sarana promosi sekolah sangat efektif, berbagai kegiatan dan prestasi sekolah dapat diunggah, disertai gambar-gambar yang relevan, masyarakat dapat mengetahui prestasi-prestasi yang telah berhasil diraih oleh UPTD SPF SMP Negeri 18 Tegal.. Website dapat dijadikan media komunikasi dan konsulidasi antara sekolah dengan para alumni. Dengan harapan terbentuk ikatan alumni yang makin besar dan kuat.
 
 Masih banyak kekurangan dari Web UPTD SPF SMP Negeri 18 Tegal, oleh karenanya, kami akan terus meng-up date diri, sehingga isi dan mutunya akan selalu lebih baik. Terima kasih dan selamat pada Tim IT maju terus untuk kemajuan UPTD SPF SMP Negeri 18 Tegal menjadi lebih pintar, cerdas, dan berbudaya, serta berakhlakul karimah. Aamiin
 
 Wassalamualaikum wr. wb."
-                        android:textColor="#000"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="590dp"
-                        android:layout_marginRight="12dp"
-                        android:text="Wassalamualaikum wr. wb."
-                        android:textColor="#000"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="590dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Wassalamualaikum wr. wb."
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
 
-                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
                 <androidx.cardview.widget.CardView
