@@ -74,17 +74,17 @@
                     app:cardCornerRadius="10dp">
 
                     <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="12dp"
                         android:layout_marginRight="12dp"
-                        android:src="@drawable/guru" />
+                        android:src="@drawable/kepsek" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
+                        android:layout_marginLeft="90dp"
                         android:layout_marginTop="20dp"
                         android:text="SAMBUTAN KEPALA SEKOLAH"
                         android:textColor="#000"
@@ -94,7 +94,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
+                        android:layout_marginLeft="90dp"
                         android:layout_marginTop="42dp"
                         android:layout_marginRight="12dp"
                         android:text="SMP NEGERI 18 KOTA TEGAL"
@@ -104,7 +104,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="80dp"
+                        android:layout_marginTop="95dp"
                         android:layout_marginRight="12dp"
                         android:text="Assalamualaikum wr. wb."
                         android:textColor="#000"
@@ -115,7 +115,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="110dp"
+                        android:layout_marginTop="115dp"
                         android:layout_marginRight="12dp"
                         android:text="Syukur alhamdulillah kami panjatkan kepada Alloh Tuhan Yang Maha Esa, disertai ucapan terima kasih kepada Tim IT UPTD SPF SMP Negeri 18 Tegal yang telah mampu mengaktifkan kembali Web Sekolah diiringi perasaan lega karena apa yang diharapkan oleh warga sekolah untuk menyediakan akses dan berbagai informasi guna mengembangkan dan memperlancar semua sistem yang ada di sekolah bisa terfasilitasi terutama dalam mengembangkan kegiatan pembelajaran."
                         android:textColor="#000"
@@ -126,7 +126,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="240dp"
+                        android:layout_marginTop="245dp"
                         android:layout_marginRight="12dp"
                         android:text="Kemajuan Teknologi Informasi dapat dimanfaatkan untuk proses pembelajaran lebih inovatif, untuk penyebarluasan informasi dari semua kegiatan pendidikan yang dilakukan di sekolah, sehingga yang membutuhkan informasi termasuk stake holder dapat terpenuhi. Sebagai media pembelajaran, Website sekolah dapat memuat blog guru di dalamnya dapat dituliskan berbagai artikel pembelajaran atau materi penting , bahkan dapat memberikan tugas mandiri kepada peserta didik . Seperti inilah pembelajaran yang berbasis Teknologi Informasi."
                         android:textColor="#000"
@@ -137,7 +137,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="385dp"
+                        android:layout_marginTop="390dp"
                         android:layout_marginRight="12dp"
                         android:text="Website sebagai sarana promosi sekolah sangat efektif, berbagai kegiatan dan prestasi sekolah dapat diunggah, disertai gambar-gambar yang relevan, masyarakat dapat mengetahui prestasi-prestasi yang telah berhasil diraih oleh UPTD SPF SMP Negeri 18 Tegal.. Website dapat dijadikan media komunikasi dan konsulidasi antara sekolah dengan para alumni. Dengan harapan terbentuk ikatan alumni yang makin besar dan kuat.
 
@@ -153,7 +153,7 @@ Wassalamualaikum wr. wb."
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="590dp"
+                        android:layout_marginTop="595dp"
                         android:layout_marginRight="12dp"
                         android:text="Wassalamualaikum wr. wb."
                         android:textColor="#000"
