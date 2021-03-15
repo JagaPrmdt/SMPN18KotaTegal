@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         viewFlipper.setAutoStart(true);
 
-        viewFlipper.setFlipInterval(3000);
+        viewFlipper.setFlipInterval(5000);
 
         viewFlipper.startFlipping();
 
@@ -50,10 +50,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void prestasi(View view){
-        Intent intent=new Intent(MainActivity.this,PrestasiActivity.class);
-        startActivity(intent);
-    }
 
     public void fasilitas(View view){
         Intent intent=new Intent(MainActivity.this, FasilitasActivity.class);
@@ -62,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void ekstrakulikuler(View view){
         Intent intent=new Intent(MainActivity.this, EkstrakulikulerActivity.class);
+        startActivity(intent);
+    }
+    public void perpus(View view){
+        Intent intent=new Intent(MainActivity.this,PerpustakaanActivity.class);
         startActivity(intent);
     }
 

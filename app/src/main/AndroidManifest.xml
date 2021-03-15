@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.smpn18kotategal">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,11 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN18KOTATEGAL">
-        <activity android:name=".OsisActivity"></activity>
+        <activity android:name=".PerpustakaanActivity"></activity>
+        <activity android:name=".OsisActivity" />
         <activity android:name=".FutsalActivity" />
         <activity android:name=".PmrActivity" />
         <activity android:name=".PramukaActivity" />
-        <activity android:name=".Perpustakaan" />
         <activity android:name=".Album5Activity" />
         <activity android:name=".Album4Activity" />
         <activity android:name=".Album3Activity" />
