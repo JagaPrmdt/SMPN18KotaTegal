@@ -4,7 +4,9 @@ plugins {
 
 android {
     compileSdkVersion 30
+    ndkVersion '21.3.6528147'
     buildToolsVersion "30.0.3"
+
 
     defaultConfig {
         applicationId "com.example.smpn18kotategal"
@@ -12,6 +14,8 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+
+
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -25,6 +29,13 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            assets {
+                srcDirs 'src\\main\\assets', 'src\\main\\assets\\2'
+            }
+        }
     }
 }
 
@@ -46,6 +57,9 @@ dependencies {
     implementation 'com.android.support:design:30.0.1'
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
