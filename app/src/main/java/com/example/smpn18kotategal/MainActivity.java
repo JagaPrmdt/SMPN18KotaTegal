@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         viewFlipper.setInAnimation(fadein);
 
-        viewFlipper.setOutAnimation(fadeout);
+        viewFlipper.setOutAnimation(fadein);
 
         viewFlipper.setAutoStart(true);
 

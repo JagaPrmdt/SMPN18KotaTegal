@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN18KOTATEGAL">
+
         <activity android:name=".PerpustakaanActivity" />
         <activity android:name=".OsisActivity" />
         <activity android:name=".FutsalActivity" />
@@ -24,17 +25,21 @@
         <activity android:name=".GaleriActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
         <activity android:name=".FasilitasActivity" />
-        <activity android:name=".PrestasiActivity" />
         <activity android:name=".GuruActivity" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
+
+
         </activity>
         <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>
