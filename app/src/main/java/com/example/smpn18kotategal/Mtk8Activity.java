@@ -4,12 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class PerpustakaanActivity extends AppCompatActivity {
+public class Mtk8Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perpustakaan);
-
+        setContentView(R.layout.activity_mtk8);
     }
 }
