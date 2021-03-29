@@ -70,6 +70,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="mtk7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku2" />
@@ -97,6 +98,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="bind7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku3" />
@@ -123,6 +125,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="bing7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku4" />
@@ -145,6 +148,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="ipa7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku4" />
@@ -190,6 +194,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
+                                android:onClick="ips7"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku5" />
 
@@ -216,6 +221,33 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
+                                android:onClick="pai7"
+                                android:cropToPadding="true"
+                                android:src="@drawable/buku6" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Pandai Berbahasa" />
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"></RelativeLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#dfdfdf"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:onClick="bjawa7"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku6" />
 
@@ -241,6 +273,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="pjok7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku7" />
@@ -251,6 +284,7 @@
                                 android:gravity="center"
                                 android:text="Pandai Berbahasa" />
                         </LinearLayout>
+
 
                     </LinearLayout>
                 </HorizontalScrollView>
@@ -285,6 +319,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="pkn7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku2" />
@@ -309,6 +344,7 @@
 
                             <ImageView
                                 android:layout_width="match_parent"
+                                android:onClick="prakarya7"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
@@ -336,6 +372,7 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
+                                android:onClick="sby7"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
