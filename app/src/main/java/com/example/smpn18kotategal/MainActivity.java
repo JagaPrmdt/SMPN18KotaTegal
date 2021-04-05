@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ekstrakulikuler(View view){
-        Intent intent=new Intent(MainActivity.this, EkstrakulikulerActivity.class);
+        Intent intent=new Intent(MainActivity.this, EkskulActivity.class);
         startActivity(intent);
     }
     public void perpus(View view){

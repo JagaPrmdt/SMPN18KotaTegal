@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OsisActivity">
+    tools:context=".OrganisasipramukaActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="180dp"
         android:fitsSystemWindows="true"
         android:theme="@style/Theme.Design">
         <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -17,14 +17,15 @@
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="EKSTRAKULIKULER"
             android:id="@+id/collapsing_tool">
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/osis"
-                android:scaleType="fitXY"
+                android:src="@drawable/upacarabanner"
+                android:scaleType="centerCrop"
                 android:layout_gravity="center|end"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
@@ -79,14 +80,14 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="12dp"
                         android:layout_marginRight="12dp"
-                        android:src="@drawable/logoosis" />
+                        android:src="@drawable/logopramuka" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="20dp"
-                        android:text="ORGANISASI OSIS"
+                        android:text="ORGANISASI PRAMUKA"
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -100,74 +101,56 @@
                         android:text="SMP NEGERI 18 KOTA TEGAL"
                         android:textSize="15sp" />
 
-                    <TextView
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="80dp"
-                        android:layout_marginRight="12dp"
-                        android:text="Organisasi ini terdiri dari susunan kepanitian yang terdiri dari ketua, wakil ketua, sekretaris, bendahara, kemudian seksi-seksi lainnya. Setiap jabatan di dalam OSIS memiliki tugas masing-masing. Kepengurusan OSIS memiliki masa kerja yang terbatas yaitu selama satu tahun dan akan diperbaharui lagi."
-                        android:textColor="#000"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="167dp"
-                        android:layout_marginRight="12dp"
-                        android:text="Fungsi OSIS
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginRight="12dp"
+                            android:text="Pramuka adalah singkatan dari Praja Muda Karana dan merupakan organisasi atau gerakan kepanduan. Pramuka adalah sebuah organisasi yang merupakan wadah proses pendidikan kepramukaan yang dilaksanakan di Indonesia. Dalam dunia internasional, Pramuka disebut dengan istilah Kepanduan (Boy Scout). Gerakan Pramuka memiliki kode Kode Kehormatan Pramuka, sebagaimana yang tertuang dalam Anggaran Dasar Pramuka, Gerakan Pramuka memiliki Kode Kehormatan yang terdiri atas janji yang disebut Satya dan Ketentuan Moral yang disebut Darma Kode Kehormatan Pramuka disesuaikan dengan golongan usia dan perkembangan rohani dan jasmaninya, yaitu: Kode Kehormatan Pramuka Siaga terdiri atas Dwisatya dan Dwidarma. Kode Kehormatan Pramuka Penggalang terdiri atas Trisatya Pramuka Penggalang dan Dasadarma. Kode Kehormatan Pramuka Penegak dan Pandega terdiri atas Trisatya Pramuka Penegak dan Pramuka Pandega dan Dasadarma. Kode Kehormatan Pramuka Dewasa terdiri atas Trisatya Anggota Dewasa dan Dasadarma. "
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
 
-Mengapa harus ada OSIS di sekolah? OSIS merupakan sebuah wadah yang memfasilitasi para siswa untuk bekerja sesuai tugasnya masing-masing demi kepentingan sekolah dan seluruh siswa. Selain itu, OSIS juga berfungsi sebagai pendorong berkembangnya kemampuan dan kreativitas siswa."
-                        android:textColor="#000"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="253dp"
-                        android:layout_marginRight="12dp"
-                        android:text="Tujuan OSIS
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:textColor="#000"
+                            android:text="Jadwal Pertemuan :"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:textColor="#000"
+                            android:text="Hari Jum'at"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:textColor="#000"
+                            android:text="Pukul 14.00-16.15"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
 
-, OSIS merupakan organisasi intra sekolah yang artinya organisasi ini dibentuk di dalam sekolah, beranggotakan siswa di sekolah, dibina oleh guru di sekolah, dan bekerja demi kebaikan sekolah.
 
-OSIS bertujuan memfasilitasi para siswa untuk menyalurkan aspirasinya, mengekspresikan kreativitasnya, dan berkontribusi untuk hal-hal yang positif. OSIS memiliki tujuan yang positif bagi seluruh siswa di sekolah yang artinya akan memberikan pengaruh positif juga bagi sekolah itu sendiri."
-                        android:textColor="#000"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="384dp"
-                        android:layout_marginRight="12dp"
-                        android:textColor="#000"
-                        android:text="Jadwal Pertemuan :"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="397dp"
-                        android:layout_marginRight="12dp"
-                        android:textColor="#000"
-                        android:text="Hari Senin dan Rabu"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="410dp"
-                        android:layout_marginRight="12dp"
-                        android:textColor="#000"
-                        android:text="Pukul 13.15-14.00"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
 
 
 

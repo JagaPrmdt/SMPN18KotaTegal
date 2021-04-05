@@ -16,7 +16,6 @@
             android:layout_height="match_parent">
 
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -73,13 +72,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="3dp"
+                            android:onClick="profil"
                             android:padding="1dp"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:gravity="center"
                                 android:layout_height="match_parent"
+                                android:gravity="center"
                                 android:orientation="vertical">
 
                                 <ImageView
@@ -96,7 +96,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:gravity="center"
-                                    android:onClick="profil"
+
                                     android:text="PROFIL"
                                     android:textColor="#000"
                                     android:textSize="20dp"
@@ -134,6 +134,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="3dp"
+                            android:onClick="guru"
                             android:padding="1dp"
                             app:cardCornerRadius="15dp">
 
@@ -156,7 +157,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:gravity="center"
-                                    android:onClick="guru"
+
                                     android:text="GURU DAN STAF"
                                     android:textColor="@color/black"
                                     android:textSize="20dp"
@@ -193,13 +194,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="3dp"
+                            android:onClick="ekstrakulikuler"
                             android:padding="1dp"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:gravity="center"
                                 android:layout_height="match_parent"
+                                android:gravity="center"
                                 android:orientation="vertical">
 
                                 <ImageView
@@ -215,7 +217,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:gravity="center"
-                                    android:onClick="ekstrakulikuler"
+
                                     android:text="EKSKUL"
                                     android:textColor="@color/black"
                                     android:textSize="20dp"
@@ -233,6 +235,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="3dp"
+                            android:onClick="fasilitas"
                             android:padding="1dp"
                             app:cardCornerRadius="15dp">
 
@@ -254,8 +257,8 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:onClick="fasilitas"
                                     android:gravity="center"
+
                                     android:text="FASILITAS"
                                     android:textColor="@color/black"
                                     android:textSize="20dp"
@@ -292,13 +295,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="3dp"
+                            android:onClick="perpus"
                             android:padding="1dp"
                             app:cardCornerRadius="15dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_gravity="center"
+                                android:gravity="center"
                                 android:orientation="vertical">
 
                                 <ImageView
@@ -314,8 +318,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:gravity="center"
-                                    android:onClick="perpus"
-                                    android:text="E PERPUS"
+
+                                    android:text="E-PERPUS"
                                     android:textColor="@color/black"
                                     android:textSize="20dp"
                                     android:textStyle="bold" />
@@ -336,6 +340,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="3dp"
+                            android:onClick="galeri"
                             android:padding="1dp"
                             app:cardCornerRadius="15dp">
 
@@ -358,7 +363,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:gravity="center"
-                                    android:onClick="galeri"
+
                                     android:text="GALERI"
                                     android:textColor="@color/black"
                                     android:textSize="20dp"
@@ -380,8 +385,6 @@
 
 
                 </LinearLayout>
-
-
 
 
             </LinearLayout>

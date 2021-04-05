@@ -23,147 +23,159 @@
             android:rowCount="4">
 
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="200dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="5dp"
-                android:backgroundTint="#00BCD4"
-                app:cardCornerRadius="10dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:textColor="#FFF"
-                    android:text="GALERI SMPN 18 TEGAL "
-                    android:textStyle="bold" />
-
-
-            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="380dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
                 android:onClick="album1"
-                android:layout_marginTop="15dp"
-                app:cardCornerRadius="10dp">
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/guru" />
+                    android:src="@drawable/logofutsal" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="50dp"
-                    android:text="KEGIATAN 5 S" />
+                    android:text="Album Kegiatan 5S" />
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="380dp"
                 android:onClick="album2"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                app:cardCornerRadius="10dp">
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/guru" />
+                    android:src="@drawable/logofutsal" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="50dp"
-                    android:text="UPACARA BENDERA" />
+                    android:text="Album Upacara Bendera" />
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="380dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
                 android:onClick="album3"
-                android:layout_marginTop="15dp"
-                app:cardCornerRadius="10dp">
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/guru" />
+                    android:src="@drawable/logofutsal" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="50dp"
-                    android:text="PERJUMSAMI" />
+                    android:text="Album Kegiatan Kepramukaan" />
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="380dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
                 android:onClick="album4"
-                android:layout_marginTop="15dp"
-                app:cardCornerRadius="10dp">
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/guru" />
+                    android:src="@drawable/logofutsal" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="50dp"
-                    android:text="JUMBARA PMR" />
+                    android:text="Album Perayaan HUT RI" />
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="380dp"
-                android:layout_height="125dp"
                 android:onClick="album5"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                app:cardCornerRadius="10dp">
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/guru" />
+                    android:src="@drawable/logofutsal" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="50dp"
-                    android:text="PERAYAAN HUT RI" />
+                    android:text="Album Kegiatan Lainnya" />
 
             </androidx.cardview.widget.CardView>
 

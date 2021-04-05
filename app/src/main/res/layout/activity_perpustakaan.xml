@@ -73,7 +73,7 @@
                                 android:onClick="mtk7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku2" />
+                                android:src="@drawable/mtk7" />
 
 
                             <TextView
@@ -101,7 +101,7 @@
                                 android:onClick="bind7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku3" />
+                                android:src="@drawable/bind" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -128,7 +128,7 @@
                                 android:onClick="bing7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku4" />
+                                android:src="@drawable/bing7" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -155,7 +155,7 @@
                                 android:onClick="ipa7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku4" />
+                                android:src="@drawable/ipa7" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -200,7 +200,7 @@
                                 android:adjustViewBounds="true"
                                 android:onClick="ips7"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku5" />
+                                android:src="@drawable/ips7" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -227,7 +227,7 @@
                                 android:adjustViewBounds="true"
                                 android:onClick="pai7"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku6" />
+                                android:src="@drawable/pai7" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -253,7 +253,7 @@
                                 android:adjustViewBounds="true"
                                 android:onClick="bjawa7"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku6" />
+                                android:src="@drawable/bjawa7" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -280,7 +280,7 @@
                                 android:onClick="pjok7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku7" />
+                                android:src="@drawable/pjok7" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -326,7 +326,7 @@
                                 android:onClick="pkn7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku2" />
+                                android:src="@drawable/pkn7" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -353,7 +353,7 @@
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku3" />
+                                android:src="@drawable/prakarya7" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -380,7 +380,7 @@
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/buku4" />
+                                android:src="@drawable/sby7" />
 
                             <TextView
                                 android:layout_width="match_parent"
