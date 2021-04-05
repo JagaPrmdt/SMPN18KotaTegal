@@ -60,7 +60,7 @@
                 android:rowCount="4">
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="osis"
+                    android:onClick="osis1"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -91,7 +91,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="pramuka"
+                    android:onClick="pramuka2"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -131,7 +131,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
-                    android:onClick="pmr"
+                    android:onClick="pmr3"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -154,7 +154,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="futsal"
+                    android:onClick="futsal4"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
