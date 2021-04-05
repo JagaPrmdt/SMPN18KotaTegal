@@ -8,7 +8,7 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="188dp"
         android:fitsSystemWindows="true"
         android:theme="@style/Theme.Design">
         <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -17,16 +17,14 @@
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
-            app:title="EKSTRAKULIKULER"
             android:id="@+id/collapsing_tool">
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/upacarabanner"
-                android:scaleType="centerCrop"
-                android:layout_gravity="center|end"
+                android:src="@drawable/bannerekskul"
+                android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
             <androidx.appcompat.widget.Toolbar
@@ -62,7 +60,7 @@
                 android:rowCount="4">
 
                 <androidx.cardview.widget.CardView
-
+                    android:onClick="osis"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -74,35 +72,26 @@
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/logoosis" />
 
-                    <LinearLayout
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:gravity="center"
-                        android:orientation="vertical">
+                        android:layout_marginLeft="50dp"
+                        android:text="ORGANISASI OSIS" />
 
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="100dp"
-                            android:onClick="ekstra1"
-                            android:layout_gravity="center"
-                            android:src="@drawable/osis" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="ORGANISASI OSIS"
-                            android:textColor="#000"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:onClick="pramuka"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -114,32 +103,22 @@
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/logopramuka" />
 
-                    <LinearLayout
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:gravity="center"
-                        android:orientation="vertical">
+                        android:layout_marginLeft="50dp"
+                        android:text="ORGANISASI PRAMUKA" />
 
-                        <ImageView
-                            android:onClick="ekstra2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="100dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/pramuka18" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="ORGANISASI PRAMUKA"
-                            android:textColor="#000"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
 
@@ -152,38 +131,30 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:onClick="pmr"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/logopmr" />
 
-                    <LinearLayout
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:gravity="center"
-                        android:orientation="vertical">
+                        android:layout_marginLeft="50dp"
+                        android:text="ORGANISASI PMR" />
 
-                        <ImageView
-                            android:onClick="ekstra3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="100dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/pmr18" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="ORGANISASI PMR"
-                            android:textColor="#000"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:onClick="futsal"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -195,32 +166,22 @@
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/logofutsal" />
 
-                    <LinearLayout
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:gravity="center"
-                        android:orientation="vertical">
+                        android:layout_marginLeft="50dp"
+                        android:text="futsal" />
 
-                        <ImageView
-                            android:onClick="ekstra4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="100dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/futsal18" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="FUTSAL"
-                            android:textColor="#000"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
 

@@ -26,7 +26,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Katalog Buku"
+                    android:text="Katalog Buku Kelas VIII"
                     android:textSize="27dp"
                     android:textStyle="bold" />
 
@@ -70,6 +70,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="mtk8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku2" />
@@ -79,7 +80,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="MATEMATIKA" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -97,6 +98,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="bind8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku3" />
@@ -105,7 +107,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="Bhs.INDONESIA" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -123,6 +125,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="bing8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku4" />
@@ -131,8 +134,11 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="Bhs.INGGRIS" />
                         </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"></RelativeLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -145,6 +151,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="ipa8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku4" />
@@ -153,7 +160,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="IPA" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -190,6 +197,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
+                                android:onClick="ips8"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku5" />
 
@@ -197,7 +205,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="IPS" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -216,6 +224,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
+                                android:onClick="pai8"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku6" />
 
@@ -223,7 +232,33 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="PAI" />
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"></RelativeLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#dfdfdf"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:onClick="bjawa8"
+                                android:cropToPadding="true"
+                                android:src="@drawable/buku6" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Bhs.JAWA" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -241,6 +276,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="pjok8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku7" />
@@ -249,8 +285,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="PJOK" />
                         </LinearLayout>
+
 
                     </LinearLayout>
                 </HorizontalScrollView>
@@ -285,6 +322,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:onClick="pkn8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/buku2" />
@@ -293,7 +331,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="PKN" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -309,6 +347,7 @@
 
                             <ImageView
                                 android:layout_width="match_parent"
+                                android:onClick="prakarya8"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
@@ -319,7 +358,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="PRAKARYA" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -336,6 +375,7 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
+                                android:onClick="sby8"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
@@ -345,7 +385,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="SBY" />
                         </LinearLayout>
 
                     </LinearLayout>

@@ -14,22 +14,22 @@ public class EkstrakulikulerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_ekstrakulikuler);
     }
 
-    public void ekstra1(View view){
+    public void osis(View view){
         Intent intent=new Intent(EkstrakulikulerActivity.this, OsisActivity.class);
         startActivity(intent);
     }
 
-    public void ekstra2(View view){
+    public void pramuka(View view){
         Intent intent=new Intent(EkstrakulikulerActivity.this,PramukaActivity.class);
         startActivity(intent);
     }
 
-    public void ekstra3(View view){
+    public void pmr(View view){
         Intent intent=new Intent(EkstrakulikulerActivity.this,PmrActivity.class);
         startActivity(intent);
     }
 
-    public void ekstra4(View view){
+    public void futsal(View view){
         Intent intent=new Intent(EkstrakulikulerActivity.this, FutsalActivity.class);
         startActivity(intent);
     }

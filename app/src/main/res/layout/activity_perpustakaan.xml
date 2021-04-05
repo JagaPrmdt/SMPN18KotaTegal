@@ -26,7 +26,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Katalog Buku"
+                    android:text="Katalog Buku Kelas VII"
                     android:textSize="27dp"
                     android:textStyle="bold" />
 
@@ -80,7 +80,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="MATEMATIKA" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -107,7 +107,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="Bhs.INDONESIA" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -134,8 +134,12 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="Bhs.INGGRIS" />
                         </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"></RelativeLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -157,7 +161,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="IPA" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -202,7 +206,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="IPS" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -229,7 +233,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="PAI" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -255,7 +259,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="Bhs.JAWA" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -282,7 +286,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="PJOK" />
                         </LinearLayout>
 
 
@@ -328,7 +332,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="PKN" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -355,7 +359,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="PRAKARYA" />
                         </LinearLayout>
 
                         <RelativeLayout
@@ -382,7 +386,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="Pandai Berbahasa" />
+                                android:text="SBY" />
                         </LinearLayout>
 
                     </LinearLayout>
