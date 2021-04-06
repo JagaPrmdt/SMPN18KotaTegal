@@ -21,7 +21,7 @@ public class Bing8Activity extends AppCompatActivity {
 
         pdfView =(PDFView) findViewById(R.id.pdfView);
 
-        pdfView.fromAsset("bing8pdf").load();
+        pdfView.fromAsset("bing8.pdf").load();
 
 
 

@@ -21,7 +21,7 @@ public class Pjok8Activity extends AppCompatActivity {
 
         pdfView =(PDFView) findViewById(R.id.pdfView);
 
-        pdfView.fromAsset("pjok.pdf").load();
+        pdfView.fromAsset("pjok8.pdf").load();
 
 
 

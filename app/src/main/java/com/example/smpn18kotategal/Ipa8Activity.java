@@ -21,7 +21,7 @@ public class Ipa8Activity extends AppCompatActivity {
 
         pdfView =(PDFView) findViewById(R.id.pdfView);
 
-        pdfView.fromAsset("Ipa8.pdf").load();
+        pdfView.fromAsset("ipa8.pdf").load();
 
 
 

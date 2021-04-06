@@ -18,11 +18,11 @@
     <ImageSwitcher
         android:id="@+id/imageSwitcher"
         android:layout_width="wrap_content"
-        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginBottom="60.00dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="40.00dp"
-        android:layout_marginRight="40.00dp"
+        android:layout_marginLeft="80.00dp"
+        android:layout_marginRight="80.00dp"
         android:layout_above="@id/gallery"
         android:layout_margin="16dp" />
 

@@ -21,8 +21,8 @@ public class album1Activity extends AppCompatActivity implements ViewSwitcher.Vi
     Context context;
     int imageItem;
     Integer[] images = {
-            R.drawable.osis, R.drawable.poster2,
-            R.drawable.pramuka1, R.drawable.poster,
+            R.drawable.salam1, R.drawable.salam2,
+            R.drawable.salam3, R.drawable.salam4,
     };
 
     @Override
