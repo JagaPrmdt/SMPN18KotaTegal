@@ -34,16 +34,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="2dp"
-                    android:src="@drawable/perpustakaan" />
+                    android:src="@drawable/perpustakaan18" />
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -70,17 +67,7 @@
                     android:layout_marginLeft="5sp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5sp"
-                    android:text="Fasilitas Perpustakaan
-•	Information Desk. Tempat bertanya mengenai berbagai informasi yang berkaitan dengan perpustakaan UPI
-•	Locker Room
-•	Lobby
-•	Library Lounge
-•	Multimedia Room
-•	Fotocopy Center
-•	Mushola
-•	BI Corner.
-
-"
+                    android:text="Fasilitas ruang perpustakaan berupa rak buku-buku perpustakaan siswa, meja dan kursi layanan, meja dan kursi baca atau sering disebut loby (terdapat TV), serta seperangkat tempat dan alat produksi bahan pustaka.   "
                     android:textColor="#000"
                     android:textSize="10sp" />
 
@@ -101,15 +88,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="2dp"
                     android:src="@drawable/labkomputer" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -136,7 +120,7 @@
                     android:layout_marginLeft="5sp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5sp"
-                    android:text="Laboratorium Komputer ataU sering disebut singkat ‘Labkom’ dapat menampung hingga 40 Meja Komputer di SMPN 18 TEGAL ini.Terdapat 2 (dua) ruang ‘Labkom’ dimana tiap ruang mempunyai kapasitas 40 Meja Komputer, serta telah dilengkapi Projector (Infocus) dan dilengkapi dengan spesifikasi Komputer terbaru( Core i3 )
+                    android:text="Laboratorium Komputer atau sering disebut singkat ‘Labkom’ dapat menampung hingga 30 Meja Komputer di SMPN 18 TEGAL ini.Terdapat 2 (dua) ruang ‘Labkom’ dimana tiap ruang mempunyai kapasitas kurang lebih 30 Meja Komputer, serta telah dilengkapi Projector (Infocus) dan dilengkapi dengan spesifikasi Komputer yang menyesuaikan yang dibutuhkan
 "
                     android:textColor="#000"
                     android:textSize="10sp" />
@@ -159,15 +143,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="2dp"
                     android:src="@drawable/labipa18" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
@@ -215,15 +196,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="2dp"
                     android:src="@drawable/masjid" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"

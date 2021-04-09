@@ -21,7 +21,7 @@ public class ProfilActivity extends AppCompatActivity {
 
         pdfView =(PDFView) findViewById(R.id.pdfView);
 
-        pdfView.fromAsset("profil18.pdf").load();
+        pdfView.fromAsset("profil.18baru.pdf").load();
 
 
 

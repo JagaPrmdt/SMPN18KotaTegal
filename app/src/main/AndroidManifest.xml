@@ -54,7 +54,6 @@
         <activity android:name=".perpustakaan2Activity" />
         <activity android:name=".OpsibukuActivity" />
         <activity android:name=".PerpustakaanActivity" />
-        <activity android:name=".Album5Activity" />
         <activity android:name=".Album4Activity" />
         <activity android:name=".Album3Activity" />
         <activity android:name=".Album2Activity" />

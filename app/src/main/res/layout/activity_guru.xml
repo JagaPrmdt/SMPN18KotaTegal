@@ -65,6 +65,16 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="KEPALA SEKOLAH"
+                        android:textColor="#4CAF50"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="19650520 198903 1 008"
                         android:textColor="#F44336"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -115,7 +125,27 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Wakil kepala sekolah I "
+                        android:textColor="#4CAF50"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="19840217 200903 1 004"
                         android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel BTIK"
+                        android:textColor="#3F51B5"
                         android:textSize="17sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -164,8 +194,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Pembantu Pimpinan Bidang "
-                        android:textColor="#F44336"
+                        android:text="Pembantu Pimpinan Bidang"
+                        android:textColor="#4CAF50"
                         android:textSize="17sp"
                         android:textStyle="bold" />
 
@@ -175,7 +205,26 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Kurikulum "
+                        android:textColor="#4CAF50"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="19670512 200604 2 013"
                         android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel Matematika"
+                        android:textColor="#3F51B5"
                         android:textSize="17sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -225,7 +274,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Pembantu Pimpinan Bidang"
-                        android:textColor="#F44336"
+                        android:textColor="#4CAF50"
                         android:textSize="17sp"
                         android:textStyle="bold" />
 
@@ -235,7 +284,27 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Humas"
+                        android:textColor="#4CAF50"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text=" 19680302 199702 1 002"
                         android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel PenjasOrkes"
+                        android:textColor="#3F51B5"
                         android:textSize="17sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -285,9 +354,29 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Wakil Kepala Sekolah II"
-                        android:textColor="#F44336"
+                        android:textColor="#4CAF50"
                         android:textSize="17sp"
                         android:textStyle="bold"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="19700621 200312 2 006"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel Bahasa Jawa"
+                        android:textColor="#3F51B5"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -335,7 +424,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Pembantu Pimpinan Bidang"
-                        android:textColor="#F44336"
+                        android:textColor="#4CAF50"
                         android:textSize="17sp"
                         android:textStyle="bold"  />
 
@@ -346,9 +435,29 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Sarana prasarana"
-                        android:textColor="#F44336"
+                        android:textColor="#4CAF50"
                         android:textSize="17sp"
                         android:textStyle="bold"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="19640510 198703 1 008"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel IPA"
+                        android:textColor="#3F51B5"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -398,7 +507,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Pembantu Pimpinan Bidang"
-                        android:textColor="#F44336"
+                        android:textColor="#4CAF50"
                         android:textSize="17sp"
                         android:textStyle="bold" />
 
@@ -408,6 +517,26 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Kesiswaan"
+                        android:textColor="#4CAF50"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="19740108 201212 2 001"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel Bhs Indonesia"
                         android:textColor="#3F51B5"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -458,7 +587,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Bend. Rutin,"
-                        android:textColor="#F44336"
+                        android:textColor="#4CAF50"
                         android:textSize="17sp"
                         android:textStyle="bold"  />
 
@@ -468,9 +597,29 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Bend. BOS/Dapen"
-                        android:textColor="#F44336"
+                        android:textColor="#4CAF50"
                         android:textSize="17sp"
                         android:textStyle="bold"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="19700827 199802 2 003"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel Bhs Indonesia"
+                        android:textColor="#3F51B5"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -518,6 +667,16 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Bendahara BOS Pusat"
+                        android:textColor="#4CAF50"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="19760328 200801 2 015"
                         android:textColor="#F44336"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -578,7 +737,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Bend. Pemb. BOS"
-                        android:textColor="#F44336"
+                        android:textColor="#4CAF50"
                         android:textSize="17sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -638,6 +797,66 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Mapel Matematika"
+                        android:textColor="#3F51B5"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/fatkhuro" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Fatkhuro, S.Pd."
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="19620506 198601 1 001"
+                        android:textColor="#F44336"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel BK"
                         android:textColor="#3F51B5"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -1065,65 +1284,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/satiti" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="Wahyuning Sri S,S.S."
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="19700621 200312 2 006"
-                        android:textColor="#F44336"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="Mapel Bahasa Jawa"
-                        android:textColor="#3F51B5"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
@@ -1287,7 +1448,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="19640427 199802 2 002"
+                        android:text=" 19750909 200801 2 009"
                         android:textColor="#F44336"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -1444,7 +1605,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/eni" />
+                    android:src="@drawable/hanasopa" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1656,6 +1817,10 @@
 
             </androidx.cardview.widget.CardView>
 
+
+
+
+
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -1700,6 +1865,159 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="Mapel B.Indonesia"
+                        android:textColor="#3F51B5"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/monika" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Monika Desi D, S. Pd"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel IPS"
+                        android:textColor="#3F51B5"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/aulia" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Aulia Salsabila, S. Pd."
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel Bhs. Indonesia"
+                        android:textColor="#3F51B5"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/farah" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Farah Oktaviasari, S. Pd"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:text="Mapel PPKn"
                         android:textColor="#3F51B5"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -1777,7 +2095,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/eni" />
+                    android:src="@drawable/yudi" />
 
                 <LinearLayout
                     android:layout_width="match_parent"

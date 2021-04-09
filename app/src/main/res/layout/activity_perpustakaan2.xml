@@ -279,7 +279,7 @@
                                 android:onClick="pjok8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/pjok7" />
+                                android:src="@drawable/pjok8" />
 
                             <TextView
                                 android:layout_width="match_parent"

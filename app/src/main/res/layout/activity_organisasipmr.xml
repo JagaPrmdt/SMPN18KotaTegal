@@ -110,7 +110,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginTop="80dp"
                             android:layout_marginRight="12dp"
-                            android:text="Pramuka adalah singkatan dari Praja Muda Karana dan merupakan organisasi atau gerakan kepanduan. Pramuka adalah sebuah organisasi yang merupakan wadah proses pendidikan kepramukaan yang dilaksanakan di Indonesia. Dalam dunia internasional, Pramuka disebut dengan istilah Kepanduan (Boy Scout). Gerakan Pramuka memiliki kode Kode Kehormatan Pramuka, sebagaimana yang tertuang dalam Anggaran Dasar Pramuka, Gerakan Pramuka memiliki Kode Kehormatan yang terdiri atas janji yang disebut Satya dan Ketentuan Moral yang disebut Darma Kode Kehormatan Pramuka disesuaikan dengan golongan usia dan perkembangan rohani dan jasmaninya, yaitu: Kode Kehormatan Pramuka Siaga terdiri atas Dwisatya dan Dwidarma. Kode Kehormatan Pramuka Penggalang terdiri atas Trisatya Pramuka Penggalang dan Dasadarma. Kode Kehormatan Pramuka Penegak dan Pandega terdiri atas Trisatya Pramuka Penegak dan Pramuka Pandega dan Dasadarma. Kode Kehormatan Pramuka Dewasa terdiri atas Trisatya Anggota Dewasa dan Dasadarma. "
+                            android:text="Ekstrakurikuler Palang Merah Remaja (PMR) merupakan salah satu ekstrakurikuler yang bergerak dibidang kepalangmerahan dimana ekstrakurikuler Palang Merah Remaja (PMR) adalah wadah pembinaan anggota remaja dengan tujuan membangun dan mengembangkan karakter anggota PMR yang berpedoman pada tribakti PMR dan prinsip kepalangmerahan untuk menjadi relawan masa depan. Berkaitan dengan aspek kecerdasan sosial, salah satu sikap yang terbentuk adalah berupa kepedulian sosial yang muncul dalam kegiatan ekstrakurikuler, yang nantinya akan memberikan kontribusi penting dalam memupuk kesadaran nasional, maka dari itu penelitian ini dimaksudkan untuk mengetahui pelaksanaan kegiatan ekstrakurikuler khususnya kegiatan ekstrakurikuler Palang Merah Remaja (PMR) dalam menumbuhkan kepedulian sosial siswa. "
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -154,6 +154,24 @@
 
 
 
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pmr18" />
 
 
                 </androidx.cardview.widget.CardView>

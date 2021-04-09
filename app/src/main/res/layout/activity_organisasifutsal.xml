@@ -8,34 +8,30 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="188dp"
         android:fitsSystemWindows="true"
         android:theme="@style/Theme.Design">
-
         <com.google.android.material.appbar.CollapsingToolbarLayout
-            android:id="@+id/collapsing_tool"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
-            app:title="EKSTRAKULIKULER">
+            android:id="@+id/collapsing_tool">
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center|end"
+                android:src="@drawable/organisasifutsal"
+                android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/upacarabanner"
-                app:layout_collapseMode="parallax" />
-
+                app:layout_collapseMode="parallax"/>
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin" />
+                app:layout_collapseMode="pin"/>
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
@@ -61,6 +57,7 @@
                 android:columnCount="1"
                 android:columnOrderPreserved="false"
                 android:rowCount="1">
+
 
                 <androidx.cardview.widget.CardView
 
@@ -119,7 +116,27 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginTop="80dp"
                             android:layout_marginRight="12dp"
-                            android:text="Pramuka adalah singkatan dari Praja Muda Karana dan merupakan organisasi atau gerakan kepanduan. Pramuka adalah sebuah organisasi yang merupakan wadah proses pendidikan kepramukaan yang dilaksanakan di Indonesia. Dalam dunia internasional, Pramuka disebut dengan istilah Kepanduan (Boy Scout). Gerakan Pramuka memiliki kode Kode Kehormatan Pramuka, sebagaimana yang tertuang dalam Anggaran Dasar Pramuka, Gerakan Pramuka memiliki Kode Kehormatan yang terdiri atas janji yang disebut Satya dan Ketentuan Moral yang disebut Darma Kode Kehormatan Pramuka disesuaikan dengan golongan usia dan perkembangan rohani dan jasmaninya, yaitu: Kode Kehormatan Pramuka Siaga terdiri atas Dwisatya dan Dwidarma. Kode Kehormatan Pramuka Penggalang terdiri atas Trisatya Pramuka Penggalang dan Dasadarma. Kode Kehormatan Pramuka Penegak dan Pandega terdiri atas Trisatya Pramuka Penegak dan Pramuka Pandega dan Dasadarma. Kode Kehormatan Pramuka Dewasa terdiri atas Trisatya Anggota Dewasa dan Dasadarma. "
+                            android:text="Futsal adalah permainan bola yang dimainkan oleh dua tim, yang masing-masing beranggotakan lima orang. Tujuannya adalah memasukkan bola ke gawang lawan, dengan memanipulasi bola dengan kaki. Selain lima pemain utama, setiap regu juga diizinkan memiliki pemain cadangan. Tidak seperti permainan sepak bola dalam ruangan lainnya, lapangan futsal dibatasi garis, bukan net atau papan.  "
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="Ekstrakurikuler ini merupakan salah satu ekstrakurikuler yang sudah lama di SMPN 18 Kota Tegal. Futsal adalah salah satu olahraga paling populer di kalangan anak muda sekarang, karena olahraga ini adalah turunan dari sepak bola tapi dengan jumlah pemain yang lebih sedikit dan luas lapangan yang lebih kecil."
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="Ekstrakurikuler futsal diadakan dengan tujuan menyediakan wadah untuk siswa menyalurkan hobinya dan menghadirkan corak positif kepada para siswa yaitu sifat-sifat sportifitas serta mencetak bibit-bibit baru olahragawan yang berprestasi di tingkat lokal, nasional maupun internasional."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -156,6 +173,24 @@
                             android:textStyle="bold" />
 
                     </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/futsal18" />
 
 
                 </androidx.cardview.widget.CardView>
