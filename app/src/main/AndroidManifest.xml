@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN18KOTATEGAL">
-        <activity android:name=".FasilitasActivity"></activity>
+        <activity android:name=".pdfviwerwithoutdownload"></activity>
+        <activity android:name=".FasilitasActivity" />
         <activity android:name=".OrganisasifutsalActivity" />
         <activity android:name=".OrganisasipmrActivity" />
         <activity android:name=".OrganisasipramukaActivity" />

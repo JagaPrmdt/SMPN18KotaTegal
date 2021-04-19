@@ -23,19 +23,55 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="monospace"
             android:gravity="center"
-            android:text="Create By :" />
+            android:textStyle="bold"
+            android:text="Dibuat oleh :" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
             android:gravity="center"
             android:text="RPL SMK YPT Kota Tegal" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="monospace"
             android:gravity="center"
+            android:textStyle="bold"
             android:text="Kelompok I" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="©𝘾𝙤𝙥𝙮𝙧𝙞𝙜𝙝𝙩 𝟮𝟬𝟮𝟭" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Jaga Prmdt // Dimas // Dwi" />
+    </LinearLayout>
+
+
+
+
 
 
 </RelativeLayout>
