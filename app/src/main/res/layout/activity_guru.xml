@@ -1286,65 +1286,6 @@
 
 
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/indrawati" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="Indrawati, S.Pd."
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="19670512 200604 2 013"
-                        android:textColor="#F44336"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="Mapel Matematika"
-                        android:textColor="#3F51B5"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
@@ -1545,7 +1486,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/noviyanimaulida" />
+                    android:src="@drawable/noviyani" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2247,7 +2188,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/diansetia" />
+                    android:src="@drawable/diansetiawidodo" />
 
                 <LinearLayout
                     android:layout_width="match_parent"

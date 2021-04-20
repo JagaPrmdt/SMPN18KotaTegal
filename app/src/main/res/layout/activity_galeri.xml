@@ -106,7 +106,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/pramuka6" />
+                    android:src="@drawable/pramuka18" />
 
                 <TextView
                     android:layout_width="wrap_content"
