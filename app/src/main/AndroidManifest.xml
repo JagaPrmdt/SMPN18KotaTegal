@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN18KOTATEGAL">
+        <activity android:name=".albumhutActivity"></activity>
+        <activity android:name=".albumpramukaActivity" />
+        <activity android:name=".albumupacaraActivity" />
+        <activity android:name=".album5sActivity" />
         <activity android:name=".FasilitasActivity" />
         <activity android:name=".OrganisasifutsalActivity" />
         <activity android:name=".OrganisasipmrActivity" />
@@ -54,10 +58,6 @@
         <activity android:name=".perpustakaan2Activity" />
         <activity android:name=".OpsibukuActivity" />
         <activity android:name=".PerpustakaanActivity" />
-        <activity android:name=".Album4Activity" />
-        <activity android:name=".Album3Activity" />
-        <activity android:name=".Album2Activity" />
-        <activity android:name=".album1Activity" />
         <activity android:name=".GaleriActivity" />
         <activity android:name=".GuruActivity" />
         <activity android:name=".ProfilActivity" />

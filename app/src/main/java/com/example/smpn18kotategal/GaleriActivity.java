@@ -17,22 +17,22 @@ public class GaleriActivity extends AppCompatActivity {
 
 
     public void album1(View view){
-        Intent intent=new Intent(GaleriActivity.this, album1Activity.class);
+        Intent intent=new Intent(GaleriActivity.this, album5sActivity.class);
         startActivity(intent);
     }
 
     public void album2(View view){
-        Intent intent=new Intent(GaleriActivity.this, Album2Activity.class);
+        Intent intent=new Intent(GaleriActivity.this, albumupacaraActivity.class);
         startActivity(intent);
     }
 
     public void album3(View view){
-        Intent intent=new Intent(GaleriActivity.this, Album3Activity.class);
+        Intent intent=new Intent(GaleriActivity.this, albumpramukaActivity.class);
         startActivity(intent);
     }
 
     public void album4(View view){
-        Intent intent=new Intent(GaleriActivity.this, Album4Activity.class);
+        Intent intent=new Intent(GaleriActivity.this, albumhutActivity.class);
         startActivity(intent);
     }
 
