@@ -1,30 +1,29 @@
 package com.example.smpn18kotategal;
 
-
-import com.github.barteksc.pdfviewer.PDFView;
-import androidx.appcompat.app.AppCompatActivity;
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.content.Intent;
-
-import com.github.barteksc.pdfviewer.PDFView;
 
 
 
-public class Ipa9Activity extends AppCompatActivity {
-    private PDFView pdfView;
-
-
-    protected void onCreate(Bundle savedInstanceState) {
+public class Ipa9Activity extends Activity {
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profil);
+        setContentView(R.layout.activity_ipa9);
+    }
 
-        pdfView =(PDFView) findViewById(R.id.pdfView);
+    public void goToSo (View view) {
+        goToUrl ( "https://drive.google.com/file/d/15cvvVfLh5DLk2RBtw6KCwqHhQrKSzTol/view?usp=drivesdk");
+    }
 
-        pdfView.fromAsset("ipa9.pdf").load();
 
-
-
+    private void goToUrl (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
     }
 
 }
