@@ -70,7 +70,6 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:onClick="mtk8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/mtk8" />
@@ -81,6 +80,19 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="MATEMATIKA" />
+
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:id="@+id/button_so"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="mtk7"
+                                android:text="BACA"></Button>
                         </LinearLayout>
 
                         <RelativeLayout
@@ -98,7 +110,6 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:onClick="bind8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/bind8" />
@@ -108,6 +119,18 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="Bhs.INDONESIA" />
+
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="bind7"
+                                android:text="BACA"></Button>
                         </LinearLayout>
 
                         <RelativeLayout
@@ -125,7 +148,6 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:onClick="bing8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/bing8" />
@@ -135,7 +157,19 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="Bhs.INGGRIS" />
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="bing7"
+                                android:text="BACA"></Button>
                         </LinearLayout>
+
                         <RelativeLayout
                             android:layout_width="10dp"
                             android:layout_height="match_parent"></RelativeLayout>
@@ -151,7 +185,6 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:onClick="ipa8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/ipa8" />
@@ -161,6 +194,17 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="IPA" />
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="ipa7"
+                                android:text="BACA"></Button>
                         </LinearLayout>
 
                     </LinearLayout>
@@ -197,7 +241,6 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
-                                android:onClick="ips8"
                                 android:cropToPadding="true"
                                 android:src="@drawable/ips8" />
 
@@ -206,6 +249,18 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="IPS" />
+
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="ips7"
+                                android:text="BACA"></Button>
                         </LinearLayout>
 
                         <RelativeLayout
@@ -224,7 +279,6 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
-                                android:onClick="pai8"
                                 android:cropToPadding="true"
                                 android:src="@drawable/pai8" />
 
@@ -233,6 +287,17 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="PAI" />
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="pai7"
+                                android:text="BACA"></Button>
                         </LinearLayout>
 
                         <RelativeLayout
@@ -250,7 +315,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
-                                android:onClick="bjawa8"
+
                                 android:cropToPadding="true"
                                 android:src="@drawable/bjawa8" />
 
@@ -259,6 +324,17 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="Bhs.JAWA" />
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="bjawa7"
+                                android:text="BACA"></Button>
                         </LinearLayout>
 
                         <RelativeLayout
@@ -276,7 +352,6 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:onClick="pjok8"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/pjok8" />
@@ -286,6 +361,17 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="PJOK" />
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="pjok7"
+                                android:text="BACA"></Button>
                         </LinearLayout>
 
 
@@ -322,7 +408,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:onClick="pkn8"
+                                android:onClick="pkn7"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
                                 android:src="@drawable/pkn8" />
@@ -332,6 +418,17 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="PKN" />
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="pkn7"
+                                android:text="BACA"></Button>
                         </LinearLayout>
 
                         <RelativeLayout
@@ -347,7 +444,6 @@
 
                             <ImageView
                                 android:layout_width="match_parent"
-                                android:onClick="prakarya8"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
@@ -359,6 +455,18 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="PRAKARYA" />
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="prakarya7"
+                                android:text="BACA"></Button>
+
                         </LinearLayout>
 
                         <RelativeLayout
@@ -375,7 +483,6 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:onClick="sby8"
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
@@ -386,6 +493,17 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="SBY" />
+                            <Button
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:clickable="true"
+                                android:cursorVisible="true"
+                                android:linksClickable="true"
+                                android:onClick="sby7"
+                                android:text="BACA"></Button>
                         </LinearLayout>
 
                     </LinearLayout>

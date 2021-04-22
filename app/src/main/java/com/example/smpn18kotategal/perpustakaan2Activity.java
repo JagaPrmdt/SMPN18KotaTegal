@@ -1,70 +1,60 @@
 package com.example.smpn18kotategal;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-public class perpustakaan2Activity extends AppCompatActivity {
 
+
+public class perpustakaan2Activity extends Activity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perpustakaan2);
     }
 
-    public void mtk8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Mtk8Activity.class);
-        startActivity(intent);
+    public void mtk7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
+    }
+    public void bind7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
+    }
+    public void bing7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
+    }
+    public void ipa7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
+    }
+    public void ips7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
+    }
+    public void pai7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
+    }
+    public void bjawa7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
+    }
+    public void pjok7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
+    }
+    public void pkn7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
+    }
+    public void prakarya7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
+    }
+    public void sby7(View view) {
+        goToUrl ( "https://drive.google.com/file/d/16mQx-I9iE34ZlY0o1uHMHC4dw7l8lOHa/view?usp=drivesdk");
     }
 
-    public void bind8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Bind8Activity.class);
-        startActivity(intent);
-    }
-    public void bing8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Bing8Activity.class);
-        startActivity(intent);
+
+
+    private void goToUrl (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
     }
 
-    public void ipa8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Ipa8Activity.class);
-        startActivity(intent);
-    }
-
-    public void ips8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Ips8Activity.class);
-        startActivity(intent);
-    }
-
-    public void pai8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Pai8Activity.class);
-        startActivity(intent);
-    }
-
-    public void pjok8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Pjok8Activity.class);
-        startActivity(intent);
-    }
-
-    public void pkn8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Pkn8Activity.class);
-        startActivity(intent);
-    }
-
-    public void prakarya8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Prakarya8Activity.class);
-        startActivity(intent);
-    }
-
-    public void sby8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Sby8Activity.class);
-        startActivity(intent);
-    }
-
-    public void bjawa8(View view){
-        Intent intent=new Intent(perpustakaan2Activity.this, Bjawa8Activity.class);
-        startActivity(intent);
-    }
 }

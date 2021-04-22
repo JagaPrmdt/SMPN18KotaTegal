@@ -311,7 +311,7 @@
                                     android:layout_gravity="center"
                                     android:layout_margin="10dp"
                                     android:onClick="perpus"
-                                    android:src="@drawable/eperpustakaan" />
+                                    android:src="@drawable/perpus" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
